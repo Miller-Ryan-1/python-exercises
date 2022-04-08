@@ -28,3 +28,20 @@ offer_expired = False #or True
 no_items = 3
 product_offer = (not offer_expired and no_items > 3) or is_premium
 print(product_offer)
+
+#5. Use the following code:
+username = 'codeup'
+password = 'notastrongpassword'
+# and create a variable that holds a boolean value for each of the following conditions:
+
+#5a. the password must be at least 5 characters
+is_password_long_enough = len(password) >= 5
+
+#5b. the username must be no more than 20 characters
+is_username_long_enough = len(username) <= 20
+
+#5c. the password must not be the same as the username
+is_password_different_than_username = username != password
+
+#5d. bonus neither the username or password can start or end with whitespace
+has_no_whitespace = (password == password.strip()) and (username == username.strip)
