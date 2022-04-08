@@ -44,4 +44,4 @@ is_username_long_enough = len(username) <= 20
 is_password_different_than_username = username != password
 
 #5d. bonus neither the username or password can start or end with whitespace
-has_no_whitespace = (password == password.strip()) and (username == username.strip)
+has_no_whitespace = (password == password.strip()) and (username == username.strip())
