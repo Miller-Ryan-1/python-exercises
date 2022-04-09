@@ -187,7 +187,7 @@ booklist = [
 'author':'Henry George',
 'genre':'Economics'}]
 
-user_input = input('Enter a genre to see my favorite books for that genre: ')
+user_input = input('Enter a genre to see my favorite books in that genre: ')
 validator = 0
 genre = user_input.lower()
 for book in booklist:
