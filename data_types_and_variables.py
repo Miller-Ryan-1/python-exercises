@@ -26,7 +26,7 @@ print(is_enrollable)
 is_premium = True #or Flase
 offer_expired = False #or True
 no_items = 3
-product_offer = (not offer_expired and no_items > 3) or is_premium
+product_offer = (not offer_expired and no_items > 2) or is_premium
 print(product_offer)
 
 #5. Use the following code:
